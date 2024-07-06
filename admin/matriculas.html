@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriculas</title>
+    <link rel="stylesheet" href="../css/mariculas_crear.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span><h2>EDUFAST</h2></span>
+            <img src="../imagenes/logo.png" alt="logo" title="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="matriculas_crear.html" title="Volver a registrar ">Volver</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Matriculas existentes</h1>
+            </head>
+            <body>
+                <div class="desplegable">
+                <label for="gradoSelect">Grado:</label>
+                <select id="gradoSelect" onchange="updateTable()">
+                    <option value="" disabled selected>Elige un grado</option>
+                    <option value="Grado 0">Grado 0</option>
+                    <option value="Grado 1">Grado 1</option>
+                    <option value="Grado 2">Grado 2</option>
+                    <option value="Grado 3">Grado 3</option>
+                    <option value="Grado 4">Grado 4</option>
+                    <option value="Grado 5">Grado 5</option>
+                    <option value="Grado 6">Grado 6</option>
+                    <option value="Grado 7">Grado 7</option>
+                    <option value="Grado 8">Grado 8</option>
+                    <option value="Grado 9">Grado 9</option>
+                    <option value="Grado 10">Grado 10</option>
+                    <option value="Grado 11">Grado 11</option>
+                </select>
+                <label for="jornadaSelect">Jornada:</label>
+                <select id="jornadaSelect" onchange="updateTable()">
+                    <option value="" disabled selected>Elige una jornada</option>
+                    <option value="Mañana">Mañana</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche">Noche</option>
+                </select>
+                </div>
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Estudiante</th>
+                            <th>Grado</th>
+                            <th>Curso</th>
+                            <th>Jornada</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Las filas de la tabla se llenarán dinámicamente -->
+                    </tbody>
+                </table>
+                <button class="btn2"><a href="matriculas_eliminar.html">Desactivar Matricula</a></button>
+             <script src="../java/matriculas.js"></script>
+            
+        
+    <footer>
+        <p>@ Todos los derechos reservados <br> EDUFAST</p>
+    </footer>
+</body>
+</html>

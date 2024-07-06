@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/observador.css">
+    <title>Observador Escolar</title>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span><h2>EDUFAST</h2></span>
+            <img src="../imagenes/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Observador.html" title="">Volver</a></li>
+    
+            </ul>
+        </nav> 
+    </header>
+
+    <h1>Observador Escolar</h1>
+    <form>
+        <label for="nombre">Nombre del Estudiante:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <button>Actualizar</button>
+        <label for="identificacion">Número de Identificación:</label>
+        <input type="text" id="identificacion" name="identificacion" required>
+        <button>Actualizar</button>
+        <label for="grado">Grado:</label>
+        <select id="grado" name="grado" required>
+            <option value="primero">Primero</option>
+            <option value="segundo">Segundo</option>
+            <option value="tercero">Tercero</option>
+            <option value="cuarto">Cuarto</option>
+            <option value="quinto">Quinto</option>
+            <option value="sexto">Sexto</option>
+            <option value="septimo">Séptimo</option>
+            <option value="octavo">Octavo</option>
+            <option value="noveno">Noveno</option>
+            <option value="decimo">Décimo</option>
+            <option value="undecimo">Undécimo</option>
+        </select>
+        
+
+        <label for="curso">Curso/Clase:</label><button>Actualizar</button>
+        <input type="text" id="curso" name="curso" required>
+        <button>Actualizar</button>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <button>Actualizar</button>
+        <label for="observador">Nombre del Observador:</label>
+        <input type="text" id="observador" name="observador" required>
+        <button>Actualizar</button>
+        <label for="tipoObservacion">Tipo de Observación:</label>
+        <select id="tipoObservacion" name="tipoObservacion" required>
+            <option value="comportamiento">Comportamiento</option>
+            <option value="academico">Académico</option>
+            <option value="social">Social</option>
+            <option value="otro">Otro</option>
+        </select><button>Actualizar</button>
+
+        <label for="observaciones">Observaciones:</label>
+        <textarea id="observaciones" name="observaciones" rows="4" required></textarea>
+        <button>Actualizar</button>
+        <label for="evaluacionComportamiento">Evaluación del Comportamiento:</label>
+        <textarea id="evaluacionComportamiento" name="evaluacionComportamiento" rows="4"></textarea>
+        <button>Actualizar</button>
+        <label for="evaluacionAcademica">Evaluación Académica:</label>
+        <textarea id="evaluacionAcademica" name="evaluacionAcademica" rows="4"></textarea>
+        <button>Actualizar</button>
+        <label for="acciones">Acciones a tomar:</label>
+        <textarea id="acciones" name="acciones" rows="4" required></textarea>
+        <button>Actualizar</button>
+        <label for="comentariosAdicionales">Comentarios Adicionales:</label>
+        <textarea id="comentariosAdicionales" name="comentariosAdicionales" rows="4"></textarea>
+        <button>Actualizar</button>
+        <label for="firmaObservador">Firma del Observador:</label>
+        <input type="text" id="firmaObservador" name="firmaObservador" required>
+        <button>Actualizar</button>
+        <label for="firmaEstudiante">Firma del Estudiante:</label>
+        <input type="text" id="firmaEstudiante" name="firmaEstudiante">
+        <button>Actualizar</button>
+        <label for="revisionPadres">Revisión de Padres/Tutores:</label>
+        <textarea id="revisionPadres" name="revisionPadres" rows="4"></textarea>
+        <button>Actualizar</button>
+        <button type="submit">Guardar Observación</button>
+    </form>
+
+</body>
+</html>
